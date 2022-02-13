@@ -49,3 +49,18 @@
 .col_title_context {
   margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 576px) {
+  .desc_col {
+    justify-content: space-between;
+    div {
+      margin-left: 4px;
+      .col_coube {
+        margin-right: 2px;
+      }
+      span{
+        font-size: 13px;
+      }
+    }
+  }
+}
