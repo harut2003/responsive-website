@@ -9,6 +9,12 @@
   z-index: 10;
   position: fixed;
   overflow-y: auto;
+  overflow-x: hidden;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
   .logo_content {
     display: flex;
     // justify-content: center;
@@ -122,4 +128,5 @@
       color: white;
     }
   }
+  
 }

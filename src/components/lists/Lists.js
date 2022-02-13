@@ -13,21 +13,21 @@ function Lists() {
   ];
   return (
     <Row className="lists_container">
-      <Col xs={12} lg={6} xl={4} className="list_container">
+      <Col xs={12} xl={4} className="list_container">
         <List
           title="Top Affiliates"
           tableTitles={titleArray}
           listPersons={listPersons}
         ></List>
       </Col>
-      <Col xs={12} lg={6} xl={4} className="list_container">
+      <Col xs={12} xl={4} className="list_container">
         <List
           title="Signups"
           tableTitles={titleArray}
           listPersons={listPersons}
         ></List>
       </Col>
-      <Col xs={12} lg={12} xl={4} className="list_container">
+      <Col xs={12} xl={4} className="list_container">
         <List
           title="Pending Commisions"
           tableTitles={titleArray}

@@ -118,15 +118,6 @@ function Sidebar() {
           {navItems.map((item, i) => {
             return item.icon && <NavItem key={i} icon={item.icon} text={item.name} />;
           })}
-          {/* <NavItem icon={toggle ? faGaugeHigh : faHome} text="Home" /> */}
-          {/* <NavItem icon={faKey} text="Account Managment" /> */}
-          {/* {toggle && <NavItem icon={faUser} />} */}
-          {/* <NavItem icon={faBullhorn} text="Marketing Tools" />
-          <NavItem icon={toggle ? faChartArea : faChartColumn} text="Reports" />
-          <NavItem icon={faArrowRightArrowLeft} text="Payments" />
-          {/* {!toggle && <NavItem icon={faPen} text="Content" />} */}
-          {/* <NavItem icon={faGear} text="Settings" />
-          {!toggle && <NavItem icon={faEnvelope} text="Communications" />} */}
         </div>
         <div className="nav_bottom">
           <NavItem icon={faHeart} text="Favorites" bottom />
