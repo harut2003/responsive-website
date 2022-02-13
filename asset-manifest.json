@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/responsive-website/static/css/main.cfa328df.css",
+    "main.js": "/responsive-website/static/js/main.87a1b13a.js",
+    "static/js/787.e2087560.chunk.js": "/responsive-website/static/js/787.e2087560.chunk.js",
+    "static/media/Metric-Semibold.ttf": "/responsive-website/static/media/Metric-Semibold.55df7e630fd4fee8b6e6.ttf",
+    "static/media/usa.svg": "/responsive-website/static/media/usa.6bfa3fc5dead5ace487f6cc7b35e269b.svg",
+    "index.html": "/responsive-website/index.html",
+    "main.cfa328df.css.map": "/responsive-website/static/css/main.cfa328df.css.map",
+    "main.87a1b13a.js.map": "/responsive-website/static/js/main.87a1b13a.js.map",
+    "787.e2087560.chunk.js.map": "/responsive-website/static/js/787.e2087560.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfa328df.css",
+    "static/js/main.87a1b13a.js"
+  ]
+}
