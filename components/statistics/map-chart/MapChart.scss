@@ -1,0 +1,53 @@
+.map_container {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  .coubes {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    .coub {
+      width: 18px;
+      height: 18px;
+      background-color: #878686;
+      margin-bottom: 10px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      border-style: none;
+      color: white;
+      font-weight: bold;
+    }
+  }
+  .map_context {
+    height: 100%;
+  }
+}
+.title_map_context {
+  padding: 10px 10px;
+}
+.select_context {
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: gray;
+  justify-content: flex-end;
+}
+.select_context,
+.ratings {
+  padding: 10px 20px;
+  display: flex;
+}
+.ratings {
+  border-bottom: 1px solid gray;
+  &:last-child {
+    border-bottom-style: none;
+  }
+  p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
